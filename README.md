@@ -1,1 +1,1 @@
-# [Portfolio Link](https://deancollier.github.io/Portfolio/){:target="_blank"}
+# <a href="https://deancollier.github.io/Portfolio/" target="_blank">Portfolio</a>
