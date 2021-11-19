@@ -135,8 +135,12 @@ p {
     font-size: 20px;
 }
 
-.services {
+.hobbies {
     color: white;
+}
+
+.hobbies img {
+    border-radius: 5%;
 }
 
 .contact {
