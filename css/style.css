@@ -5,12 +5,22 @@ body {
     font-family: 'Montagu Slab', serif;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 h1 {
     font-weight: bold;
 }
+
 .gradient {
     background: rgb(247,147,26);
     background: linear-gradient(90deg, rgba(247,147,26,1) 5%, rgb(180, 179, 179) 97%);
+}
+
+.navbar img {
+    position: relative;
 }
 
 .page-header {
@@ -25,7 +35,7 @@ h1 {
 
 .socials img {
     margin: 0;
-    zoom: 500%;
+    zoom: 100%;
     display: inline-block;
     align-items: center;
     justify-content: center;
@@ -33,19 +43,20 @@ h1 {
 
 .feature {
     color: white;
-
 }
-
+.feature a:hover {
+    color: white;
+    box-shadow: 0 0 80px rgba(33,33,33,.2); 
+}
+.feature img {
+    border-radius: 5%;
+}
 .feature ul {
     padding-left: 2rem;
-    /*list-style-type: none;*/
 }
-
 .feature ul li {
-    padding-left: 2rem;
-/*    background-image: url;
-    background-image: no-repeat;*/
-    line-height: 1.5rem;
+    padding-left: 1rem;
+    line-height: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -119,7 +130,3 @@ h1 {
 
 }
 
-.a {
-    color: white;
-    text-decoration: none;
-}
