@@ -5,18 +5,23 @@ body {
     font-family: 'Montagu Slab', serif;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
-
 h1 {
     font-weight: bold;
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
 
 .gradient {
-    background: rgb(247,147,26);
-    background: linear-gradient(90deg, rgba(247,147,26,1) 5%, rgb(180, 179, 179) 97%);
+    background: rgb(247, 147, 26);
+    background: linear-gradient(90deg, rgba(247, 147, 26, 1) 5%, rgb(180, 179, 179) 97%);
+}
+
+.inverse-gradient {
+    background: rgb(247, 147, 26);
+    background: linear-gradient(90deg, rgb(180, 179, 179) 5%, rgba(247, 147, 26, 1) 97%);
 }
 
 .navbar img {
@@ -24,12 +29,14 @@ h1 {
 }
 
 .page-header {
-    padding-top: 3rem;;
+    padding-top: 3rem;
+    ;
     margin-top: 3rem;
     font-size: 1.25rem;
     color: white;
 }
-.page-header img{
+
+.page-header img {
     border-radius: 15%;
 }
 
@@ -41,20 +48,30 @@ h1 {
     justify-content: center;
 }
 
+.experience a {
+    color: white;
+    text-decoration: none;
+}
+
+.experience a:hover {
+    color: white;
+    font-size-adjust: calc(1.2x)
+}
+
 .feature {
     color: white;
 }
-.feature a:hover {
-    color: white;
-    box-shadow: 0 0 80px rgba(33,33,33,.2); 
-}
+
 .feature img {
     border-radius: 5%;
 }
+
 .feature ul {
     padding-left: 2rem;
 }
+
 .feature ul li {
+    font-size: 1.2rem;
     padding-left: 1rem;
     line-height: 2rem;
     margin-bottom: 1rem;
@@ -69,13 +86,11 @@ h1 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    
-
 }
 
 .gallery {
-    background-color: whitesmoke ;
-
+    background-color: rgb(56, 56, 56);
+    color: white;
 }
 
 .gallery img {
@@ -94,6 +109,7 @@ h1 {
     position: relative;
     display: inline-block;
 }
+
 .project-box .project-box-detail {
     position: absolute;
     border-radius: 5%;
@@ -105,21 +121,27 @@ h1 {
     opacity: 0;
     transition: opactiy 0.5s ease-in-out;
 }
+
 .project-box:hover .project-box-detail {
     opacity: 0.95;
 }
+
 .project-box-detail span {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: white;
     font-size: 20px;
 }
 
 .services {
     color: white;
+}
 
+.contact {
+    color: white;
+    background-color: rgb(56, 56, 56);
 }
 
 .footer {
@@ -127,6 +149,4 @@ h1 {
     font-size: 1rem;
     margin: 0;
     padding: 1rem;
-
 }
-
